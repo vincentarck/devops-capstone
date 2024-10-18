@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./front-end-nextjs
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"  # Menghubungkan port 3000 di host ke port 3000 di container
+    environment:
+      - NEXT_PUBLIC_API_URL=http://api:5000  # URL API untuk frontend
+    depends_on:
+      - api
+
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"  # Menghubungkan port 5000 di host ke port 5000 di container
+    env_file:
+      - ./credent.env  # Make sure the file exists and has correct syntax
