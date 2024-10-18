@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # devops-qr-code
 
 This is the sample application for the DevOps Capstone Project.
@@ -50,6 +51,8 @@ Look at the capstone project for more detials.
 
 [MIT](./LICENSE)
 =======
+=======
+>>>>>>> 1ef5892b45d863f9465235ff93c5282bde2120ff
 # DevOps Capstone Project: QR Code Generator
 
 ## Overview
@@ -125,4 +128,7 @@ The sample application code is available at [rishabkumar7/devops-qr-code](https:
 This project aims to demonstrate the application of DevOps practices in a real-world scenario by containerizing a QR Code generator application and automating its deployment using CI/CD pipelines. The project also emphasizes the importance of observability and monitoring in maintaining a robust application.
 
 Feel free to explore the code and contribute to the project!
+<<<<<<< HEAD
+>>>>>>> 1ef5892b45d863f9465235ff93c5282bde2120ff
+=======
 >>>>>>> 1ef5892b45d863f9465235ff93c5282bde2120ff
